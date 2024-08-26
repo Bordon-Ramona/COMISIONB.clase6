@@ -1,0 +1,29 @@
+.conteiner{
+    display: grid;
+    justify-content: center;
+    margin-top: 55px;
+}
+.imagen{
+    width: 250px;
+    height: 150;
+    margin: 0 15px;
+    border-radius: 15px;
+}
+.card{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0 ,0.35) 0px 5px 15px;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 2px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.card h1{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.card.title , .card.p{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
